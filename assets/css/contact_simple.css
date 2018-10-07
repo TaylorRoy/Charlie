@@ -44,7 +44,6 @@ p {
     margin: 0 10px;
     margin-right: 20px;
     color: black !important;
-    /* color:#777777; */
 }
 
 .nav-link:hover {
@@ -54,7 +53,7 @@ p {
 
 .big-container {
     width: 100%;
-     position: relative; 
+    position: relative; 
 }
 
 .van {
@@ -69,12 +68,13 @@ p {
 }
 
 .questions{
-     position: fixed;
-     top: 8px;
+    position: fixed;
+    top: 8px;
     left: 16px;
     padding-top: 150px;
     padding-left: 65px;
 }
+
 .card-title {
     text-align: center;
 }
