@@ -1,5 +1,6 @@
 p { 
-    font-family: "helvetica";
+    font-family: "Open Sans Regular";
+    font-size: 25px;
 }
 
 .navbar {
@@ -42,31 +43,18 @@ p {
     margin-top: 115px;
 }
 
-h1 {
-    font-family: "helvetica";
-    font-size: 70px;
-    
-}
 
 h2 {
     text-decoration: underline;
 }
 
 .motto {
+    font-family: "Open Sans Bold";
+    font-size: 28px;
     margin-top: -13px;
     padding-top: 30px;
     padding-left: 100px;
-    font-weight: 900;
-    padding-right: 400px;
-}
-
-.help {
-    padding-top: 30px;
-    padding-left: 100px;
-    font-weight: 900;
-    padding-right: 400px;
-    border-top-width: 5px;
-    border-top-style: solid;
+    font-weight: 700;
 }
 
 .statement {
@@ -75,28 +63,70 @@ h2 {
     padding-right: 400px;
 }
 
+.van {
+    border-top-width: 5px;
+    border-top-style: solid;
+}
+
+
+
+.help {
+    font-family: "Open Sans Bold";
+    font-size: 28px;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-weight: 900;
+    border-top-width: 5px;
+    border-top-style: solid;
+}
+
+
 .strategy {
     border-top-width: 5px;
-    padding-top: 30px;
     text-align: center;
-    line-height: 1;
+    
 }
 
 .strategy-header {
     /* text-decoration: underline; */
-    font-size: 40px;
+    font-family: "Open Sans Bold";
+    font-size: 28px;
     font-weight: bold;
+}
+
+.strategy-col1 {
+    text-align: center;
+    line-height: 0.5;
+    color: #6e6e70;
+}
+.strategy-col2 {
+    text-align: center;
+    line-height: 0.5;
+    color: #6e6e70;
 }
 
 .tactics-header {
     /* text-decoration: underline; */
-    font-size: 40px;
+    font-family: "Open Sans Bold";
+    font-size: 28px;
     font-weight: bold;
+   
 }
 
-.tactics {
-    line-height: 1;
+.tactics-header {
     text-align: center;
+}
+
+.tactics-col1 {
+    text-align: center;
+    line-height: 0.5;
+    color: #6e6e70;
+}
+
+.tactics-col2 {
+    line-height: 0.5;
+    text-align: center;
+    color: #6e6e70;
 }
 
 .boas-logo-footer {
