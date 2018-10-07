@@ -4,7 +4,7 @@ p {
     font-size: 25px;
 }
 
-.navbar {
+/* .navbar {
     position: fixed;
     z-index: 1;
     background-color: #fff;
@@ -22,7 +22,35 @@ p {
 .nav-link:hover {
     color:#1b7890 !important;
     text-decoration: underline;
+} */
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    width: 100%;
 }
+
+ .navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    font-family: "Open Sans Bold";
+    font-size: 28px;
+    margin: 0 10px;
+    margin-right: 20px;
+    color: black !important;
+    /* color:#777777; */
+}
+
+.nav-link:hover {
+    color:#6e6e70 !important;
+    text-decoration: underline;
+} 
 
 .big-container {
     width: 100%;

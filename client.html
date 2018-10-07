@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Charlie Project</title>
+    <title>Boas Marketing</title>
 
     <!--links JQuery to HTML file-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -35,25 +35,21 @@
 
 <body>
     <!-- Navigation Bar at top -->
-    <div class="navbar-area">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html"><img src="./assets/images/boas final.JPG" alt="BOAS LOGO"
-                    width="200px"></a>
-            <div class="nav-link-area">
-                <ul class="navbar-nav">
-                    <li>
-                        <a class="nav-link" href="#">ABOUT <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CLIENTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT US</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html"><img src="./assets/images/boas final.JPG" alt="BOAS LOGO" width="200px"></a>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" id="about" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
 
 
     <div class=container-big>
@@ -63,20 +59,20 @@
                 <div class="client-area col-sm-4">
                     <div class="client-logo-card card">
                         <div class="card-body">
-                            <a href="https://coleforgestoves.com/"><img class="card-img-top" src="./assets/images/Cole Forge Stoves Logo.JPG"
+                            <a target="_blank" href="https://coleforgestoves.com/"><img class="card-img-top" src="./assets/images/Cole Forge Stoves Logo.JPG"
                                     alt="Card image cap"></a>
-                            <h5 class="card-title">Cole Forge Stoves</h5>
-                            <p class="card-text">Wood Burning Stoves.</p>
+                            <!-- <h5 class="card-title">Cole Forge Stoves</h5>
+                            <p class="card-text">Wood Burning Stoves.</p> -->
                         </div>
                     </div>
                 </div>
                 <div class="client-area col-sm-4">
                     <div class="client-logo-card card">
                         <div class="card-body">
-                            <a href="https://www.kitn.co/"><img class="card-img-top" src="./assets/images/Kitn.co Logo.JPG"
+                            <a target="_blank" class="kit" href="https://www.kitn.co/"><img class="card-img-top" src="./assets/images/Kitn.co Logo.JPG"
                                     alt="Card image cap"></a>
-                            <h5 class="card-title">Kitn & Co.</h5>
-                            <p class="card-text">Furniture Hardware.</p>
+                            <!-- <h5 class="card-title">Kitn & Co.</h5>
+                            <p class="card-text">Furniture Hardware.</p> -->
                         </div>
                     </div>
                 </div>
@@ -86,46 +82,70 @@
                 <div class="client-area col-sm-4">
                     <div class="client-logo-card card">
                         <div class="card-body">
-                            <a href="http://www.munchmachine.com/"><img class="card-img-top" src="./assets/images/munch_logo_color.png"
+                            <a target="_blank" href="http://www.munchmachine.com/"><img class="card-img-top" src="./assets/images/munch_logo_color.png"
                                     alt="Card image cap"></a>
-                            <h5 class="card-title">Munch Machine</h5>
-                            <p class="card-text">Marijuana Processing Equipment.</p>
+                            <!-- <h5 class="card-title">Munch Machine</h5>
+                            <p class="card-text">Marijuana Processing Equipment.</p> -->
                         </div>
                     </div>
                 </div>
                 <div class="client-area col-sm-4">
                     <div class="client-logo-card card">
                         <div class="card-body">
-                            <a href="https://www.virtueconsultants.com/"><img class="card-img-top" src="./assets/images/Virtue Logo.JPG"
+                            <a target="_blank" href="https://www.virtueconsultants.com/"><img class="card-img-top" src="./assets/images/Virtue Logo.JPG"
                                     alt="Card image cap"></a>
-                            <h5 class="card-title">Virtue Consultants</h5>
-                            <p class="card-text">Ethical Consulting.</p>
+                            <!-- <h5 class="card-title">Virtue Consultants</h5>
+                            <p class="card-text">Ethical Consulting.</p> -->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
 
-        <!-- footer -->
-        <div id="footer-card" class="card mb-3">
-            <img class="boas-logo-footer card-img-top" src="./assets/images/boas final.JPG" alt="Card image cap"
-                width=300px>
-            <div class="card-body">
-                <h5 class="card-title">BOAS</h5>
-                <p class="card-text">SLC, UT</p>
-                <div class="social-media-area">
-                    <a class="facebook-icon" href="https://www.facebook.com/"><img src="./assets/images/if_facebook_386622.png"
-                            alt="facebook logo" width="50px"></a>
-                    <a class="facebook-icon" href="https://www.instagram.com/"><img src="./assets/images/if_instagram-square-flat-2_1620013.png"
-                            alt="twitter logo" width="55px"></a>
-                    <a class="facebook-icon" href="https://www.twitter.com/"><img src="./assets/images/if_twitter_386736.png"
-                            alt="twitter logo" width="50px"></a>
+            <div class="third-row row">
+                <div class="client-area col-sm-4">
+                    <div class="client-logo-card card">
+                        <div class="card-body">
+                            <a target="_blank" href="http://www.belayspecs.com/"><img class="card-img-top" src="./assets/images/belay_specs.JPG"
+                                    alt="Card image cap"></a>
+                            <!-- <h5 class="card-title">Munch Machine</h5>
+                            <p class="card-text">Marijuana Processing Equipment.</p> -->
+                        </div>
+                    </div>
                 </div>
+                <!-- <div class="client-area col-sm-4">
+                    <div class="client-logo-card card">
+                        <div class="card-body">
+                            <a href="https://www.virtueconsultants.com/"><img class="card-img-top" src="./assets/images/Virtue Logo.JPG"
+                                    alt="Card image cap"></a>
+                             <h5 class="card-title">Virtue Consultants</h5>
+                            <p class="card-text">Ethical Consulting.</p>
+                        </div>
+                    </div>
+                </div> -->
             </div>
-
-            <p class="copyright">© Copyright 2018. All rights reserved</p>
         </div>
+    </div>
+
+
+    <!-- footer -->
+    <div id="footer-card" class="card mb-3">
+        <img class="boas-logo-footer card-img-top" src="./assets/images/boas final.JPG" alt="Card image cap" width=300px>
+        <div class="card-body">
+            <h5 class="card-title">BOAS</h5>
+            <p class="card-text">SLC, UT</p>
+            <div class="social-media-area">
+                <a class="facebook-icon" href="https://www.facebook.com/"><img src="./assets/images/if_facebook_386622.png"
+                        alt="facebook logo" width="50px"></a>
+                <a class="facebook-icon" href="https://www.instagram.com/"><img src="./assets/images/if_instagram-square-flat-2_1620013.png"
+                        alt="twitter logo" width="55px"></a>
+                <a class="facebook-icon" href="https://www.twitter.com/"><img src="./assets/images/if_twitter_386736.png"
+                        alt="twitter logo" width="50px"></a>
+            </div>
+        </div>
+
+        <p class="copyright">© Copyright 2018. All rights reserved</p>
+    </div>
     </div>
 
 </body>

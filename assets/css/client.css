@@ -2,96 +2,6 @@ p {
     font-family: "helvetica";
 }
 
-.navbar {
-    position: fixed;
-    box-sizing: border-box;
-    z-index: 999;
-    clear: both;
-    /* overflow:hidden; */
-    background-color: #fff;
-     height: 102px;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-    top: 0px;
-    bottom: 0px;
-    padding-bottom: 6px;
-    padding-top: 23px;
-    width: 100%;
-    /* min-height: 102px; */
-    
-}
-
-/* @media only screen and (max-width: 943px) {
-    .navbar {
-        height:250px;
-    }
-} */
-
-.navbar-brand {
-    margin-right: 0px;
-    margin-top: -17px;
-    margin-left: -16px;
-    padding-bottom: 6px;
-    top:5px;
-}
-
-.nav-link {
-    font-size: 25px;
-    margin-right: 20px;
-    color: black !important;
-}
-
-.nav-link:hover {
-    color:#1b7890 !important;
-    text-decoration: underline;
-}
-
-.container-big {
-    margin-top: 115px;
-}
-.container-small {
-    padding-left: 6%;
-    margin-bottom: 30px;
-    padding-top: 5px;
-    
-}
-.row {
-    margin-top: 30px;
-    
-}
-
-.client-area {
-    border-top-width: 3px;
-border-top-style: solid;
-border-right-width: 3px;
-border-right-style: solid;
-border-bottom-width: 3px;
-border-bottom-style: solid;
-border-left-width: 3px;
-border-left-style: solid;
-margin-right: 70px;
-}
-
-.client-logo-card {
-    border-top-width: 0px !important;
-    padding-top: 0px !important;
-    border-right-width: 0px;
-border-bottom-width: 0px;
-border-left-width: 0px;
-}
-
-.card-img-top {
-    border-top-width: 3px;
-border-top-style: solid;
-border-left-width: 3px;
-border-left-style: solid;
-border-right-width: 3px;
-border-right-style: solid;
-border-bottom-width: 3px;
-border-bottom-style: solid;
-border-color: #1b7890;
-}
-
 h1 {
     font-family: "helvetica";
     font-size: 70px;
@@ -100,6 +10,68 @@ h1 {
 
 h2 {
     text-decoration: underline;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    width: 100%;
+}
+
+ .navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    font-family: "Open Sans Bold";
+    font-size: 28px;
+    margin: 0 10px;
+    margin-right: 20px;
+    color: black !important;
+}
+
+.nav-link:hover {
+    color:#6e6e70 !important;
+    text-decoration: underline;
+} 
+
+.container-big {
+    /* margin-top: 115px; */
+}
+.container-small {
+    padding-left: 6%;
+    margin-bottom: 30px;
+    padding-top: 115px;
+    
+}
+.row {
+    margin-top: 30px;
+    
+}
+
+.client-area {
+    border-top-width: 1px;
+border-top-style: solid;
+border-right-width: 1px;
+border-right-style: solid;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-left-width: 1px;
+border-left-style: solid;
+margin-right: 70px;
+border-color: #6e6e70;
+}
+
+.client-logo-card {
+    border-top-width: 0px !important;
+    padding-top: 0px !important;
+    border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
 }
 
 .boas-logo-footer {
@@ -115,6 +87,10 @@ h2 {
 
 .card-text {
     text-align: center;   
+}
+
+.kit {
+    margin-left: 26px;
 }
 
 #footer-card {
