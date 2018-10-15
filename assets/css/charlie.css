@@ -94,11 +94,17 @@ h2 {
     font-family: "Open Sans Bold";
     font-size: 28px;
     padding-top: 30px;
-    /* padding-left: 100px; */
     text-align: center;
     font-weight: 900;
     /* border-top-width: 5px;
     border-top-style: solid; */
+}
+
+.services-explanation {
+    font-size: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
 }
 
 
@@ -181,7 +187,7 @@ h2 {
 .card {
     /* border-top-width: 5px;
     border-top-color: black; */
-padding-top: 30px;
+    padding-top: 30px;
 }
 
 .social-media-area {

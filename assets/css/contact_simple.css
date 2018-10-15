@@ -52,27 +52,30 @@ p {
 } 
 
 .big-container {
-    width: 100%;
-    position: relative; 
+    /* background-image: url(/assets/images/DSC_0898.JPG); */
+    height: 100%;
+    position: relative;
+/* opacity: 0.65; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 600px;
 }
 
-.van {
-    min-height: 300px
-}
+.questions{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}  
+
 
 .boas-logo-footer {
     width:200px;
     display: block;
     margin-left: auto;
     margin-right: auto;  
-}
-
-.questions{
-    position: fixed;
-    top: 8px;
-    left: 16px;
-    padding-top: 150px;
-    padding-left: 65px;
 }
 
 .card-title {
