@@ -3,19 +3,29 @@ p {
     font-size: 25px;
 }
 
-.navbar {
+.navigation-area {
     width: 100%;
     position: fixed;
     z-index: 1;
+    background-color: #fff;  
+}
+
+.navbar {
+    width: 100%;
     background-color: #fff;
     /* border-bottom-width: 5px;
     border-bottom-style: solid; */
+}
+
+.navbar-nav {
+    flex-direction: row;
     width: 100%;
 }
 
- .navbar-nav {
-    flex-direction: row;
-}
+.nav-item {
+    margin:0 10%;
+
+} 
 
 .nav-link {
     font-family: "Open Sans Bold";
@@ -25,18 +35,29 @@ p {
     color: black !important;
 }
 
+
 .nav-link:hover {
     color:#6e6e70 !important;
     text-decoration: underline;
 } 
 
-.big-container {
+.navbar-brand {
+    display: block;
+    clear:both;
+    padding-top: 64px;
+    text-align: center;
+}
+
+.logo {
     width: 100%;
-     position: relative; 
+    background-color: #fff;
+    padding-top: 0px;
+    bottom: 0px;
+    top: 58px;
 }
 
 .container-big {
-    /* margin-top: 115px; */
+    padding-top: 185px;
 }
 
 
@@ -48,15 +69,16 @@ h2 {
     font-family: "Open Sans Bold";
     font-size: 28px;
     margin-top: -13px;
-    padding-top: 30px;
-    padding-left: 100px;
+    padding-top: 40px;
+    text-align: center;
     font-weight: 700;
 }
 
 .statement {
     font-size: 25px;
-    padding-left: 100px;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
 }
 
 .van {
@@ -64,13 +86,16 @@ h2 {
     border-top-style: solid; */
 }
 
-
+.container {
+    padding-top: 15px;
+}
 
 .help {
     font-family: "Open Sans Bold";
     font-size: 28px;
     padding-top: 30px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
+    text-align: center;
     font-weight: 900;
     /* border-top-width: 5px;
     border-top-style: solid; */
@@ -138,11 +163,19 @@ h2 {
 
 .card-title {
     text-align: center;
-    font: Open Sans Regular;
+    font: "Open Sans Regular";
 }
 
 .card-text {
     text-align: center;   
+}
+
+.email {
+    text-align: center;   
+}
+
+.phone {
+    text-align: center;
 }
 
 .card {
