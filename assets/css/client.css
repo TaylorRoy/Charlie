@@ -72,7 +72,7 @@ h2 {
     padding-top: 50px;
 }
 .container-small {
-    padding-left: 6%;
+    /* padding-left: 6%; */
     margin-bottom: 30px;
     padding-top: 115px;
    
@@ -80,7 +80,19 @@ h2 {
 }
 .row {
     margin-top: 30px;
-    margin-left:15%;   
+    /* margin-left:15%;    */
+}
+
+@media only screen and (max-width: 576px) {
+    .client-area {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .row {
+        margin-top: 0px;
+    }
 }
 
 /* .second-row {
@@ -100,16 +112,17 @@ border-bottom-width: 1px;
 border-bottom-style: solid;
 border-left-width: 1px;
 border-left-style: solid;
-margin-right: 70px;
+margin-right: 20px;
 border-color: #6e6e70;
+
 }
 
 .client-logo-card {
     border-top-width: 0px !important;
     padding-top: 0px !important;
     border-right-width: 0px;
-border-bottom-width: 0px;
-border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
 }
 
 .boas-logo-footer {
