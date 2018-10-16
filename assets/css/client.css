@@ -13,19 +13,29 @@ h2 {
     text-decoration: underline;
 }
 
-.navbar {
+.navigation-area {
     width: 100%;
     position: fixed;
     z-index: 1;
+    background-color: #fff;  
+}
+
+.navbar {
+    width: 100%;
     background-color: #fff;
     /* border-bottom-width: 5px;
     border-bottom-style: solid; */
+}
+
+.navbar-nav {
+    flex-direction: row;
     width: 100%;
 }
 
- .navbar-nav {
-    flex-direction: row;
-}
+.nav-item {
+    margin:0 10%;
+
+} 
 
 .nav-link {
     font-family: "Open Sans Bold";
@@ -35,13 +45,29 @@ h2 {
     color: black !important;
 }
 
+
 .nav-link:hover {
     color:#6e6e70 !important;
     text-decoration: underline;
 } 
 
+.navbar-brand {
+    display: block;
+    clear:both;
+    padding-top: 64px;
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 0px;
+    bottom: 0px;
+    top: 58px;
+} 
+
 .container-big {
-    /* margin-top: 115px; */
+    padding-top: 50px;
 }
 .container-small {
     padding-left: 6%;
