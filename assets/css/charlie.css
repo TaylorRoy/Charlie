@@ -1,5 +1,5 @@
 p { 
-    font-family: "Open Sans Regular";
+    font-family: 'Open Sans', sans-serif;
     font-size: 25px;
 }
 
@@ -28,7 +28,8 @@ p {
 } 
 
 .nav-link {
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans";
+    font-weight: bold;
     font-size: 28px;
     margin: 0 10px;
     margin-right: 20px;
@@ -66,7 +67,8 @@ h2 {
 }
 
 .motto {
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans";
+    font-weight: bold;
     font-size: 28px;
     margin-top: -13px;
     padding-top: 40px;
@@ -91,7 +93,8 @@ h2 {
 }
 
 .help {
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans";
+    font-weight: bold;
     font-size: 28px;
     padding-top: 30px;
     text-align: center;
@@ -116,7 +119,8 @@ h2 {
 
 .strategy-header {
     /* text-decoration: underline; */
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans";
+    font-weight: bold;
     font-size: 28px;
     font-weight: bold;
 }
@@ -134,7 +138,7 @@ h2 {
 
 .tactics-header {
     /* text-decoration: underline; */
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans";
     font-size: 28px;
     font-weight: bold;
    
@@ -169,7 +173,8 @@ h2 {
 
 .card-title {
     text-align: center;
-    font: "Open Sans Regular";
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
 }
 
 .card-text {

@@ -1,10 +1,11 @@
 p { 
-    font-family: "Open Sans Regular";
+    font-family: 'Open Sans', sans-serif;
     font-size: 25px;
 }
 
 h1 {
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans";
+    font-weight: bold;
     font-size: 70px;
     
 }
@@ -38,7 +39,8 @@ h2 {
 } 
 
 .nav-link {
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans";
+    font-weight: bold;
     font-size: 28px;
     margin: 0 10px;
     margin-right: 20px;
@@ -123,6 +125,14 @@ border-left-width: 0px;
 
 .card-text {
     text-align: center;   
+}
+
+.email {
+    text-align: center;   
+}
+
+.phone {
+    text-align: center;
 }
 
 .kit {
