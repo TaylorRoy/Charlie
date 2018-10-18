@@ -1,7 +1,7 @@
 p {
     /* color: white; */
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .navigation-area {
@@ -23,6 +23,13 @@ p {
     width: 100%;
 }
 
+@media only screen and (max-width: 581px) {
+    .navbar-nav {
+    flex-direction: column !important;
+    text-align: center;
+    }
+}
+
 .nav-item {
     margin:0 10%;
 
@@ -31,7 +38,7 @@ p {
 .nav-link {
     font-family: "Open Sans";
     font-weight: bold;
-    font-size: 28px;
+    font-size: 25px;
     margin: 0 10px;
     margin-right: 20px;
     color: black !important;
@@ -39,7 +46,7 @@ p {
 
 
 .nav-link:hover {
-    color:#6e6e70 !important;
+    /* color:#6e6e70 !important; */
     text-decoration: underline;
 } 
 
@@ -75,7 +82,16 @@ p {
     top: 50%;
     width: 100%;
     text-align: center;
-}  
+} 
+
+.question_line {
+    color: #fff;
+    
+}
+
+.email_us {
+    color: #fff;
+}
 
 
 .boas-logo-footer {
@@ -91,6 +107,7 @@ p {
 
 .phone {
     text-align: center;
+    color: #6e6e70;
 }
 
 .card-title {
@@ -112,5 +129,7 @@ p {
 }
 
 .copyright {
-    text-align: center;   
-}
+    text-align: center;
+    font-size: 15px; 
+    color: #6e6e70;
+}  

@@ -1,6 +1,6 @@
 p { 
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .navigation-area {
@@ -22,6 +22,13 @@ p {
     width: 100%;
 }
 
+@media only screen and (max-width: 581px) {
+    .navbar-nav {
+    flex-direction: column !important;
+    text-align: center;
+    }
+}
+
 .nav-item {
     margin:0 10%;
 
@@ -30,7 +37,7 @@ p {
 .nav-link {
     font-family: "Open Sans";
     font-weight: bold;
-    font-size: 28px;
+    font-size: 25px;
     margin: 0 10px;
     margin-right: 20px;
     color: black !important;
@@ -38,7 +45,7 @@ p {
 
 
 .nav-link:hover {
-    color:#6e6e70 !important;
+    /* color:#6e6e70 !important; */
     text-decoration: underline;
 } 
 
@@ -69,7 +76,7 @@ h2 {
 .motto {
     font-family: "Open Sans";
     font-weight: bold;
-    font-size: 28px;
+    font-size: 25px;
     margin-top: -13px;
     padding-top: 40px;
     text-align: center;
@@ -77,7 +84,8 @@ h2 {
 }
 
 .statement {
-    font-size: 25px;
+    font-size: 22px;
+    color: #6e6e70;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
@@ -95,7 +103,7 @@ h2 {
 .help {
     font-family: "Open Sans";
     font-weight: bold;
-    font-size: 28px;
+    font-size: 25px;
     padding-top: 30px;
     text-align: center;
     font-weight: 900;
@@ -104,7 +112,8 @@ h2 {
 }
 
 .services-explanation {
-    font-size: 25px;
+    font-size: 22px;
+    color: #6e6e70;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
@@ -121,7 +130,7 @@ h2 {
     /* text-decoration: underline; */
     font-family: "Open Sans";
     font-weight: bold;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -139,14 +148,13 @@ h2 {
 .tactics-header {
     /* text-decoration: underline; */
     font-family: "Open Sans";
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
-   
-}
-
-.tactics-header {
     text-align: center;
 }
+
+/* .tactics-header {
+} */
 
 .tactics-col1 {
     text-align: center;
@@ -174,7 +182,7 @@ h2 {
 .card-title {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .card-text {
@@ -187,6 +195,7 @@ h2 {
 
 .phone {
     text-align: center;
+    color: #6e6e70;
 }
 
 .card {
@@ -200,5 +209,7 @@ h2 {
 }
 
 .copyright {
-    text-align: center;   
-}
+    text-align: center;
+    font-size: 15px; 
+    color: #6e6e70;
+}  
