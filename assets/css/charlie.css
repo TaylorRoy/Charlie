@@ -17,6 +17,11 @@ p {
     border-bottom-style: solid; */
 }
 
+.sticky {
+    top: 0;
+    width: 100%;
+  }
+
 .navbar-nav {
     flex-direction: row;
     width: 100%;
