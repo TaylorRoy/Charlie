@@ -13,38 +13,28 @@ var PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.use(express.static(__dirname + '/assets'));
 
-app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "./../../contact2.html"));
+
+app.get("/contact", function (req, res) {
+    res.sendFile(path.join(__dirname, "./contact2.html"));
+    res.sendFile('contact2.html')
 });
 
 app.post('/api/contactEmail', function (req, res) {
-    
-    sgMail.setApiKey("API KEY HERE");
+    sgMail.setApiKey("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");
     const msg = {
-        to: 'tbroy@hotmail.com.com',
+        to: 'charlieboas@gmail.com',
         from: req.body.email,
+        // from: 'tbroy@hotmail.com',
         subject: 'From Boas Marketing Website',
-        text: req.body.message,
-        html: '<strong>'+req.body.message+'</strong>',
+        text: req.body.message, 
+        // text: 'data test',
+        html: '<strong>' + req.body.first_name + " " + req.body.last_name + " wrote: " + req.body.message + "  I can be contacted at: " + req.body.phone + '</strong>',
     };
-    sgMail.send(msg);
+    sgMail.send(msg)
 })
 
-app.get("/add", function (req, res) {
-    res.sendFile(path.join(__dirname, "add.html"));
-});
-
-// Displays all characters
-app.get("/api/characters", function (req, res) {
-    return res.json(characters);
-});
-
-
-// Create New Characters - takes in JSON inp
-
-// Starts the server to begin listening
-// =============================================================
 app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
 });

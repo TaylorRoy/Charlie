@@ -13,8 +13,6 @@ p {
 .navbar {
     width: 100%;
     background-color: #fff;
-    /* border-bottom-width: 5px;
-    border-bottom-style: solid; */
 }
 
 .sticky {
@@ -50,7 +48,6 @@ p {
 
 
 .nav-link:hover {
-    /* color:#6e6e70 !important; */
     text-decoration: underline;
 } 
 
@@ -96,11 +93,6 @@ h2 {
     text-align: center;
 }
 
-.van {
-    /* border-top-width: 5px;
-    border-top-style: solid; */
-}
-
 .container {
     padding-top: 15px;
 }
@@ -112,8 +104,6 @@ h2 {
     padding-top: 30px;
     text-align: center;
     font-weight: 900;
-    /* border-top-width: 5px;
-    border-top-style: solid; */
 }
 
 .services-explanation {
@@ -132,7 +122,6 @@ h2 {
 }
 
 .strategy-header {
-    /* text-decoration: underline; */
     font-family: "Open Sans";
     font-weight: bold;
     font-size: 25px;
@@ -151,15 +140,11 @@ h2 {
 }
 
 .tactics-header {
-    /* text-decoration: underline; */
     font-family: "Open Sans";
     font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
-
-/* .tactics-header {
-} */
 
 .tactics-col1 {
     text-align: center;
@@ -175,6 +160,9 @@ h2 {
 
 #footer-card {
     border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
 }
 
 .boas-logo-footer {
@@ -204,8 +192,6 @@ h2 {
 }
 
 .card {
-    /* border-top-width: 5px;
-    border-top-color: black; */
     padding-top: 30px;
 }
 
